@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -311,7 +311,6 @@
 				TargetAttributes = {
 					3B9059021DAECB5200B4EEC0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BD2TPDQG5D;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -324,7 +323,7 @@
 				};
 			};
 			buildConfigurationList = 3B9058FD1DAECB5200B4EEC0 /* Build configuration list for PBXProject "CleanroomLogger" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -436,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B9059271DAECB9E00B4EEC0 /* Project.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -482,6 +482,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRIP_SWIFT_SYMBOLS = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -494,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B9059271DAECB9E00B4EEC0 /* Project.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -533,6 +535,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				STRIP_SWIFT_SYMBOLS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;

@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC "The CleanRoom Logging Framework. CleanroomLogger provides an extensible Swift-based logging API that is simple, lightweight and performant."                   
+  s.description  = <<-DESC "The CleanRoom Logging Framework. CleanroomLogger provides an extensible Swift-based logging API that is simple, lightweight and performant."
 DESC
 
   s.homepage     = "https://github.com/karstengresch/CleanroomLogger"
@@ -52,7 +52,7 @@ DESC
   #  profile URL.
   #
 
-  s.author             = { "Karsten Gresch" => "email@address.com" }
+  s.author             = { "Evan Maloney" => "swift-users@swift.org" }
   # Or just: s.author    = "Karsten Gresch"
   # s.authors            = { "Karsten Gresch" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/Karsten Gresch"
@@ -130,6 +130,9 @@ DESC
   #  you can include multiple dependencies to ensure it works.
 
   # s.requires_arc = true
+
+  # config.build_settings['SWIFT_VERSION'] = '4.0'
+  s.xcconfig = { "SWIFT_VERSION" => "4.0" }
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
